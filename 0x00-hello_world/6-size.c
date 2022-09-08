@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 /**
- *
- *  * main - Prints sized of characters
- *
- *   *
- *
- *    *Return: Always 0 (success)
- *
- *     */
+*main - Entry point
+*Description: Prints sized of characters
+*Return: Always 0 (success)
+*/
 
 int main(void)
 
