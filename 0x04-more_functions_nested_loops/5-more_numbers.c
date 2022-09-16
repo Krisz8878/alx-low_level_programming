@@ -2,28 +2,24 @@
 
 /**
  * mor_numbers - prints the numbers 0-14 ten times
+ *
+ * Return: always 0
  */
+
 void more_numbers(void)
 {
-	char n, c;
-	int i = 0;
+	int x;
+	int y;
 
-	while (i < 10)
+	for (x = 0; x <= 9; x++)
 	{
-		for (n = 0; n <= 14; n++)
+		for (y = 0; y <= 14; y++)
 		{
-			c = n;
-			if (n > 9)
-			{
-				_putchar('1');
-				c = n % 10;
-			}
-			_putchar('1');
+			if (y > 9)
+				_putchar(y / 10 + '0');
+			_putchar(y % 10 + '0');
 		}
-
-		_putchar('0' + c);
+		_putchar('\n');
 	}
-
-	_putchar('\n');
-	i++;
 }
+
