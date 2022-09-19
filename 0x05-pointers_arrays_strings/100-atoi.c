@@ -2,16 +2,18 @@
 
 /**
  * _atoi - converts a string to an integer
- * @s; the string to be converted
+ * @s: the string to be converted
  *
- * Return: the integer value of the converted string
+ * Return: the integer value of the converted string.
  */
-int void(char *s)
+
+int _atoi(char *s)
 {
 	int sign = 1;
 	unsigned int num = 0;
 
 	do {
+
 		if (*s == '-')
 			sign *= -1;
 
@@ -20,7 +22,6 @@ int void(char *s)
 
 		else if (num > 0)
 			break;
-
 	} while (*s++);
 
 	return (num * sign);
