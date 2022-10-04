@@ -8,7 +8,7 @@
  *
  * Return: NULL if string == NULL otherwise pointer.
  */
-char *strdup(char *str)
+char *_strdup(char *str)
 {
 	char *duplicate;
 	int index, len = 0;
