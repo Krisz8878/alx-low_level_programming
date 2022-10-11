@@ -7,6 +7,6 @@
  * that computes the absoulute value of a number x.
  */
 
-#define ABS(x) ((x) < 0 ? (-X) ; (x))
+#define ABS(x) ((x) < 0 ? (-X) : (x))
 
 #endif /* FUNCTION_LIKE_MACRO_H */
