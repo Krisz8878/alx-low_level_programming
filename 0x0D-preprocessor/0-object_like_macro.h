@@ -2,9 +2,11 @@
 #define OBJECT_LIKE_MACRO_H
 
 /**
- * Desc: header file that defines a macro names size
+ * File: 0-object_like_macro
+ * Desc: Header file that defines a macro named
+ * SIZE as an abbreviation for the token 1024.
  */
 
 #define SIZE 1024
 
-#endif
+#endif /* OBJECT_LIKE_MACRO_H */
