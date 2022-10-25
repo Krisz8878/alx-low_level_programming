@@ -1,0 +1,1 @@
+This directory contains tasks of more singly linked lists done by Utsu, Christian Akomaye of cohort 9 of the alx software engineering program.
