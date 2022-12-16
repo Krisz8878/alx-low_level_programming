@@ -1,0 +1,1 @@
+Solutions of dynamic libraries.
